@@ -1,0 +1,8 @@
+UNION LITERALS
+Aik hi variable ko multiple datatypes  asssign krna is by UNION(|)
+let trafficLight: boolean | string = false;  // | is sign ko laga kr multiple data types de skte hainn
+
+
+LITERAL TYPE k through hum restrict kr skte hain when using UNNION
+let otherLight: boolean | "red" | "yellow" | "green"= false; // Union along with literals
+LITERAL means static value

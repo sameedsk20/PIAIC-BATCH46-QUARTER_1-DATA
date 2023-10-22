@@ -1,0 +1,21 @@
+tsc main.ts for converting ts file to js in cmd of VS COde... not the terminal
+
+js ki file chalani ho tou:
+node main.js
+
+aik saath convert aur run k liye:
+tsc main.ts && node main.js
+
+variable likhne ka aik aur way:
+var NAME:DATATYPE = VALUE;
+
+var k keyword se same name variables bana skte hainn jo k iska drawback hai 
+LET keyword se same name k variables nh bana skte hain
+
+TYPESCRIPT Ki configuration file k liye: iske baad hum typescript k kuch features change kr skte  
+tsc --init          init short form of initialize
+
+TYPESCRIPT ka faida ye hai k  yeh datatypes waghera ko bht  focus main rakhta hai as commpared to  JAVASCRIPT
+
+`` are called  template literals
+

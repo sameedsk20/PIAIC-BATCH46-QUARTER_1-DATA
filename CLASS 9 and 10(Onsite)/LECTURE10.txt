@@ -1,0 +1,28 @@
+STEP 05c to 
+
+-> STALE OBJECT
+-> FRESH OBJECT
+-> NESTED OBJECTS
+-> INTERFACE and TYPE main difference:
+1. Interface just objects ki datatype k liye hi hogi bss
+2.Multiple datatypes ko single type area bana k store kr skty so that baar baar na lengthy code likhna ho
+-> INTERSECTION OF INTERFACES or INTERSECTION DATATYPE
+    type Intersection = Student & Teacher ;
+-> ANY DATATYPE
+    ->  In case where we dont know the datatype, we use any in the WORST CASE
+    ->  We usually dont use ANY Datatype.
+-> UNKNOWN DATATYPE
+    ->  Slightly same as ANY
+-> DIFFERENCE B/W ANY and UNKNOWN
+    1. ANY k saath use kr k koi bhi variable dusry main assign kr skty but cant do with UNKNOWN.
+    2. Accept hr value karyga but value aagy assign nh krne dega.
+-> NEVER Datatype is assigned when TS is unable to assign any datatype.
+-> EXPLICIT TYPECASTING: jab hum khud se kisi variable ki datatype change krty 
+    -> We use "as" keyword.
+    let myName: unknown = "SAMEED";
+    let myUpdatedType = myName as string;
+    -> Variable k naam se pehle <> k type bata dein
+-> ENUM: it is a constant variable.
+    -> ENUM ko hm as a datatype bhi use kr skte hain
+    -> ENUM ki values ko bhi use kr skte hain hum
+    

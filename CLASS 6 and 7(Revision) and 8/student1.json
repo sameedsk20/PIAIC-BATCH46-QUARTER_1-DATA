@@ -1,0 +1,10 @@
+{
+    "name": "Sameed",
+    "age": 22,
+    "section": "A",
+    "subjects": ["OOP", "COAL", "DAA", "PF"], 
+    "address": {
+        "house": "PLOT ST-16",
+        "sector": "35-E"
+    }
+}

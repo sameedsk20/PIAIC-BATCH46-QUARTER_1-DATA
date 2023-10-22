@@ -1,0 +1,82 @@
+npm pr bht saary ready to use packages of codes deploy huye hhoty haiin by developers. 
+NPM pr aa k package seearch krna hai and then usko install krlena hai humne.
+-D stands for DevDependency which means that kisi  package ko as a Dev-Package install kro mtlb ye k jab aap  koi project install ho tou ye project just development environment ho. Jab deploy kardein kahein to devDependency nh hogi
+
+					STEPS TODAY:
+1. tsc --init -> to initialize the TYPESCRIPT
+2. npm init -y to CREATE FILE OF PACKAGE.JSON -> This is used jab humein kisi aur ka code apne pss use krna ho
+3. npm i @types/node -D  -> is used to install different types of NODE JS
+If I want my package to be just for development stage, hum dev-dependencies ka kaam lety hain by -D.
+Dev-Dependencies k andr k packages ko jab publish krenge tou wh run nh honge
+Jo packages DEPENDENCIES main honge tou wh Machine main chalenge au.r publish krne k baad bhi chalnege.
+
+PACKAGE.JSON maintains a list of packages jo hum use kr rhy honge along with their versions and otherr details
+
+jo bhi cheez install krenge wh NODE MODULES main add hoti rahygi
+
+tsc -w for automatically converting TS file to JS
+node FILENAME.js in another terminal to view the results
+
+				TO INSTALL ANY PACKAGE FROM NPM
+npm install <packageName>
+
+					JAVASCRIPT OBJECTS
+let VARNAME = { Key1:Value1 , Key2:Value2 , ....};
+.. Objects main hum differrent types ka data store kr skte
+console.log(VARNAME.KEY) to print some particular key's value of a variable.
+
+we can also add functions in the objects. Function inside an object is known as METHOD
+FUNCTIONnAME: function () {........}
+To call this function: VARIABLENAME.FUNCTIONnAME();
+
+
+				JSON -> JavaScript Object Notation
+{
+"name" : "Sameed",
+"age" : 22 ,
+"gender" : "male" ,
+"family" : []
+}
+JSON main Keys  ko hum "" main likhte hain
+JSON is a format of displaying the data
+JSON is used to communicate between 2 systems or store data of any entities. 
+JSON used to transfer the data.
+JSON har language ko smjh aata hai
+It is  not  same as JS Object because JSON can't contain functions unlike the JSObject which can contain Method.
+JSON ko hum JSObject main convert kr k use karenge hum
+JSON k andr arrays bhi ban skti.
+
+			TYPES OF ERRORS IN TYPESCRIPT
+1. Syntax Error
+lett name = "Sameed";
+
+2. Type Error
+console.loger(message);
+
+3. Assignablity Error
+let message = "Hello";
+message = 6;
+clg(message);
+
+
+			STRONG TYPING
+jaise aik variable of string banaya aur ab number assign nh kr skte
+
+			CONST vs LET
+jab "CONST" use krenge tab declarre krte huye variable ko lazmi value assign krni hoti.
+
+
+			MODULES
+poori application ki different functionalities ko alag alag files main rkhna
+MODULE KO EXPORT KRNA
+export let num1 = 13;    exporting from modue1 file
+
+DUSRI FILE MAIN MODULE KO IMPORT KRNA
+import {num1} from "./modue1";	 importing in main file
+console.log(num1);
+
+TYPESCRIPT ko JAVASCRIPT main convert krna is known as TRANSPILE krna
+
+./ means k main file k around jo bhi files hain wh show hojayengi
+OLD WAY of Export is COMMON JS MODULE
+ECHMA SCRIPT MODULE is new way of Export

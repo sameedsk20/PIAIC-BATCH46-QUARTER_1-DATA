@@ -1,0 +1,7 @@
+
+{
+    "name" : "Sameed",
+    "age" : 22 ,
+    "gender" : "male" ,
+    "family" : ["Mother", "Brother", "Sister"]
+    }
